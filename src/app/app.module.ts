@@ -6,12 +6,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { FilterComponent } from './components/filter/filter.component';
-import { PopupComponent } from './components/popup/popup.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FilterPipe } from './filter.pipe';
 
 @NgModule({
-  declarations: [AppComponent, FilterComponent, PopupComponent, FilterPipe],
+  declarations: [AppComponent, FilterComponent, FilterPipe],
   imports: [
     BrowserModule,
     GoogleMapsModule,
