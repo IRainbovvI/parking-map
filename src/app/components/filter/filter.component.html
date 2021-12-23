@@ -1,0 +1,23 @@
+<div class="filter-header"><div class="filter-header-text">Filter</div></div>
+<div class="filter-body">
+  <div class="radio-group" [formGroup]="myGroup" (change)="changeFilter()">
+    <p><input type="radio" value="1" formControlName="filterType" />All</p>
+    <p>
+      <input type="radio" value="2" formControlName="filterType" />Available
+    </p>
+    <p>
+      <input type="radio" value="3" formControlName="filterType" />Unavailable
+    </p>
+    <p>
+      <input type="radio" value="4" formControlName="filterType" />Battery Level
+      >
+      <input
+        class="battery"
+        type="number"
+        min="0"
+        max="100"
+        formControlName="battery"
+      />
+    </p>
+  </div>
+</div>

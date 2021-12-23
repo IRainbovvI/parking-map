@@ -1,0 +1,45 @@
+.filter-header {
+  width: 100%;
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.filter-header-text {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.filter-body {
+  width: 100%;
+  margin: 10px;
+}
+
+.mat-card {
+  padding: 0 !important;
+}
+
+.mat-card-title {
+  margin: 0 !important;
+  letter-spacing: 1px;
+}
+
+.mat-card-header {
+  padding: 15px;
+  border-bottom: 1px solid grey;
+}
+
+.mat-card-content {
+  padding: 15px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.battery {
+  margin-bottom: 15px;
+}
